@@ -1,0 +1,30 @@
+{
+  "name": "s3-nodejs",
+  "version": "1.0.0",
+  "description": "In this repository , I 'll share code to how you can upload files in S3 bucket, download files and delete files, list all files. ✔️",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mx-s3rp3nt/s3-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mx-s3rp3nt/s3-nodejs/issues"
+  },
+  "homepage": "https://github.com/mx-s3rp3nt/s3-nodejs#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1083.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "multer": "^1.4.4",
+    "multer-s3": "^2.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
